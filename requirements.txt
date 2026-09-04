@@ -1,0 +1,9 @@
+python-dotenv>=1.0.0
+streamlit>=1.38.0
+pandas>=2.2.0
+plotly>=5.24.0
+pytest>=8.3.0
+
+# Optional: only required if you switch USE_MOCK_RAZORPAY=False in .env
+# to make real calls against Razorpay's TEST-mode API.
+razorpay>=1.4.2

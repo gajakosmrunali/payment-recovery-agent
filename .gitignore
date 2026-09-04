@@ -1,0 +1,19 @@
+# Environment
+.env
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Data (generated at runtime - keep the repo clean; .gitkeep preserves the folder)
+data/*.db
+data/synthetic_payments.json
+
+# OS / editor
+.DS_Store
+.vscode/settings.json
